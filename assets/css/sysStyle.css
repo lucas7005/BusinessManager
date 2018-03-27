@@ -1,0 +1,92 @@
+
+*{
+    padding: 0px;
+    margin: 0;
+}
+.menu {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    background-color: rgb(134, 169, 199);
+    
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(134, 169, 199);
+    line-height: 30px;
+    text-align: center;
+    z-index: 1;
+
+}
+.menu li a{
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgb(57, 33, 189);
+}
+
+.menu li ul{
+    position: absolute;
+    top: 28px;
+    display: none;
+    left: 0px;
+    padding-top: 3px;
+}
+
+.menu li:hover ul{
+    display: block;
+
+
+}
+
+.menu li ul li{
+    border: 1px rgb(59, 192, 209);
+    display: block;
+    line-height: 25px;
+    width: 150px;
+}
+
+#formCadastroCliente{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    border-radius: 13px;
+    background-color: #f5f3f3;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
+}
+
+#formCadastroProduto{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    border-radius: 13px;
+    background-color: #f5f3f3;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
+}
+
+#tableConsult{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    width: 99%;
+    padding-right: 10px;
+}
+
+#consultProduct{
+    padding-bottom: 7px;
+}
