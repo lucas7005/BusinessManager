@@ -1,58 +1,62 @@
 
-*{
-    padding: 0px;
+body, 
+.menu,
+.sub-menu {
     margin: 0;
+    padding: 0;
 }
-.menu {
-    list-style-type: none;
-    width: 100%;
-    float: left;
-    background-color: rgb(134, 169, 199);
-    
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
 }
-
-.menu li{
-    position: relative;
-    float: left;
-    border-right: 1px solid white;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: rgb(134, 169, 199);
-    line-height: 30px;
-    text-align: center;
-    z-index: 1;
-
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #000;
 }
-.menu li a{
-    font-family: arial;
-    font-size: 16px;
-    color: white;
+.sub-menu {
+    background: #444;
+}
+.menu a {
     text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-
-.menu li:hover{
-    background-color: rgb(57, 33, 189);
+.menu li {
+    position: relative;
 }
-
-.menu li ul{
-    position: absolute;
-    top: 28px;
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: #444;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
     display: none;
-    left: 0px;
-    padding-top: 3px;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
 }
-
-.menu li:hover ul{
-    display: block;
-
-
+.sub-menu li:hover {
+    background: #555;
 }
-
-.menu li ul li{
-    border: 1px rgb(59, 192, 209);
-    display: block;
-    line-height: 25px;
-    width: 150px;
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
 }
 
 #formCadastroCliente{
