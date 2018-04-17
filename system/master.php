@@ -27,19 +27,19 @@ if (isset($_GET['log'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BSnS Manager 1.0</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="../assets/css/sysStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../assets/javascript/main.js" ></script>
     <script src="../assets/javascript/clients.js" ></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
 </head>
 <body>
 
         <div class="menu-container">
             <ul class="menu clearfix">
-                <li><a href="">Clientes</a>
+                <li><a href=""><i class="far fa-address-book"></i> Clientes</a>
                     <!-- Nível 1 -->
                     <!-- submenu -->
                     <ul class="sub-menu clearfix">
@@ -61,7 +61,7 @@ if (isset($_GET['log'])) {
                         </li>
                     </ul><!-- submenu -->
                 </li>
-                <li><a href="#">Estoque</a>
+                <li><a href="#"><i class="fas fa-warehouse"></i> Estoque</a>
                     <!-- Nível 1 -->
                     <!-- submenu -->
                     <ul class="sub-menu clearfix">
@@ -91,7 +91,7 @@ if (isset($_GET['log'])) {
                         </li>
                     </ul><!-- submenu -->
                 </li>
-                <li><a href="#">Financeiro</a>
+                <li><a href="#"><i class="fas fa-money-bill-alt"></i> Financeiro</a>
                     <!-- Nível 1 -->
                     <!-- submenu -->
                     <ul class="sub-menu clearfix">
@@ -112,7 +112,7 @@ if (isset($_GET['log'])) {
                         </li>
                     </ul><!-- submenu -->
                 </li>
-                <li><a href="#">Vendas</a>
+                <li><a href="#"><i class="fas fa-shopping-basket"></i> Vendas</a>
                     <!-- Nível 1 -->
                     <!-- submenu -->
                     <ul class="sub-menu clearfix">

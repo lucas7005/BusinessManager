@@ -32,6 +32,11 @@
         
     </div>
     
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Business Manager - By @LucasBorim</span>
+      </div>
+    </footer>
 
 </body>
 

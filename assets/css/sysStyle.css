@@ -18,10 +18,10 @@ body,
 .menu,
 .sub-menu {
     list-style: none;
-    background: #000;
+    background: #a52020;
 }
 .sub-menu {
-    background: #444;
+    background: #a52020;
 }
 .menu a {
     text-decoration: none;
@@ -40,7 +40,8 @@ body,
     float: left;
 }
 .menu > li:hover {
-    background: #444;
+    background: rgb(175, 83, 83);
+    border-radius: 13px;
 }
 .menu li:hover > .sub-menu {
     display: block;
@@ -52,7 +53,8 @@ body,
     z-index: 1;
 }
 .sub-menu li:hover {
-    background: #555;
+    background: rgb(175, 83, 83);
+    border-radius: 13px;
 }
 .sub-menu .sub-menu {
     top: 0;
